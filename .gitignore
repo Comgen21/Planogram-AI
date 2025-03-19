@@ -29,6 +29,7 @@ image_embeddings_lance/
 segments/
 image_embeddings/
 models/
+FastSAM/
 results/
 thumbnails/
 thumbnails-imaged/

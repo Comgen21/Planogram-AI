@@ -199,7 +199,7 @@ def search_faiss(index, query_embedding, db, top_k=5):
     print(query_result)
     return query_result
 @log_time
-def compare_images(image1, image2, cosine_thresh=0.99, mahal_thresh=1.0, save_path="strictcomparison_results.csv", save_all=False):
+def compare_images(image1, image2, cosine_thresh=0.99, mahal_thresh=1.0, save_path="strictcomparison_results.csv", save_all=True):
     """
     Compares segments of two images using cosine similarity and Mahalanobis distance.
     
@@ -292,7 +292,6 @@ def compare_images(image1, image2, cosine_thresh=0.99, mahal_thresh=1.0, save_pa
 
     except Exception as e:
         print(f"Error in compare_images: {e}")
-
 
 # --------------------------- Example Pipeline ----------------------------
 if __name__ == "__main__":
