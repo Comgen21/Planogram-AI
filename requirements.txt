@@ -11,7 +11,7 @@ tqdm>=4.64.0
 torch=2.5.0
 pandas>=1.1.4
 seaborn>=0.11.0
-faiss
+faiss-cpu>=1.7.0
 sckit-image
 gradio==3.35.2
 open-clip-torch
